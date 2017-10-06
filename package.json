@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ArchAiA/rt2#readme",
   "dependencies": {
-    "expres": "0.0.5"
+    "expres": "0.0.5",
+    "express-generator": "^4.15.0"
   }
 }
