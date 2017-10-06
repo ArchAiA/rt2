@@ -1,0 +1,22 @@
+{
+  "name": "regtangles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ArchAiA/rt2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArchAiA/rt2/issues"
+  },
+  "homepage": "https://github.com/ArchAiA/rt2#readme",
+  "dependencies": {
+    "expres": "0.0.5"
+  }
+}
