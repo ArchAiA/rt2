@@ -1,0 +1,13 @@
+mongodb://<dbuser>:<dbpassword>@ds117485.mlab.com:17485/rt
+
+USERNAME: david
+USERPW: davidpw
+
+
+
+function getCounts(noticeType, dateRange) {
+  request('https://api.data.gov/regulations/v3/documents.json?api_key=hEDGLWEULDJF9i24ic68uG0NKda2veflW1DjsVEA&countsOnly=1&dct=' + noticeType + '&pd=' + dateRange, function(err, res, body) {
+    if(err) throw(err);
+    count =  JSON.parse(body).totalNumRecords;
+  })
+}
